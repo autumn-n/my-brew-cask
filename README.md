@@ -2,7 +2,7 @@
 My OSX Settings
 
 ### Setting
-----
+
 ##### Show access modifier for classes in IntelliJ
 * https://stackoverflow.com/questions/45369257/how-to-show-access-modifiers-for-classes-in-intellij-idea
 * -Dide.projectView.show.visibility=true
@@ -15,7 +15,6 @@ My OSX Settings
 * https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
 
 ### brew
-----
 ```
 brew install awscli
 brew install aws-elasticbeanstalk
@@ -38,7 +37,6 @@ brew install autoenv
 ```
 
 ### brew cask
-----
 ```
 brew cask install alfred
 
@@ -59,7 +57,6 @@ brew cask install google-chrome
 ```
 
 ### App Store
-----
 ```
 Line
 KakaoTalk
