@@ -54,6 +54,7 @@ brew cask install dropbox
 brew cask install slack
 
 brew cask install google-chrome
+brew cask install postman
 ```
 
 ### App Store
