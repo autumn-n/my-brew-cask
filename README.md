@@ -4,15 +4,27 @@ My OSX Settings
 ### Setting
 
 ##### Show access modifier for classes in IntelliJ
-* https://stackoverflow.com/questions/45369257/how-to-show-access-modifiers-for-classes-in-intellij-idea
-* -Dide.projectView.show.visibility=true
+Command + Shift + A > `Registry`
+```
+-Dide.projectView.show.visibility=true
+```
 
 ##### Convert '₩' to '\`'
-* https://ani2life.com/wp/?p=1753
-* https://gist.github.com/redism/43bc51cab62269fa97a220a7bb5e1103
+```
+curl -sSL https://gist.githubusercontent.com/redism/43bc51cab62269fa97a220a7bb5e1103/raw/0d55b37b60e0e0bd3d0d7f53995de0a722f9820c/kr_won_to_backquote.sh | sh
+```
 
 ##### Use ⌥ ← and ⌥→ to jump forwards/backwards words in iTerm 2, on OS X
-* https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
+Profiles > Keys
+```
+Keyboard Shortcut: ⌥←
+Action: Send Escape Sequence
+Esc+: b
+
+Keyboard Shortcut: ⌥→
+Action: Send Escape Sequence
+Esc+: f
+```
 
 ### brew
 ```
