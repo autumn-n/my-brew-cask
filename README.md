@@ -92,9 +92,7 @@ alias ll='ls -l'
 alias la='ls -la'
 
 function ssh-aws-ec2user() { ssh -i ~/.ssh/xxx.pem ec2-user@"$1"; }
-function ssh-aws-ec2user-apne2() { ssh -i ~/.ssh/xxx.pem ec2-user@"$1"; }
 alias as=ssh-aws-ec2user
-alias as2=ssh-aws-ec2user-apne2
 
 function git-pull-all() {
     START=$(git symbolic-ref --short -q HEAD);
