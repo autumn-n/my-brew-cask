@@ -1,7 +1,28 @@
 # my-osx-settings
 My OSX Settings
 
-## brew
+### Setting
+----
+##### Show access modifier for classes in IntelliJ
+```
+-Dide.projectView.show.visibility=true
+
+https://stackoverflow.com/questions/45369257/how-to-show-access-modifiers-for-classes-in-intellij-idea
+```
+
+##### Convert '₩' to '`'
+```
+ - https://ani2life.com/wp/?p=1753
+ - https://gist.github.com/redism/43bc51cab62269fa97a220a7bb5e1103
+```
+
+##### Use ⌥ ← and ⌥→ to jump forwards/backwards words in iTerm 2, on OS X
+```
+ - https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
+```
+
+### Brew
+----
 ```
 brew install awscli
 brew install aws-elasticbeanstalk
@@ -23,7 +44,8 @@ brew install pyenv-virtualenv
 brew install autoenv
 ```
 
-### brew cask
+### Brew Cask
+----
 ```
 brew cask install alfred
 
@@ -44,6 +66,7 @@ brew cask install google-chrome
 ```
 
 ### App Store
+----
 ```
 Line
 KakaoTalk
