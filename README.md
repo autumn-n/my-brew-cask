@@ -4,7 +4,7 @@ My OSX Settings
 ### Setting
 
 ##### Show access modifier for classes in IntelliJ
-Command + Shift + A > `Registry`
+`Command + Shift + A` > `Registry`
 ```
 -Dide.projectView.show.visibility=true
 ```
@@ -15,7 +15,7 @@ curl -sSL https://gist.githubusercontent.com/redism/43bc51cab62269fa97a220a7bb5e
 ```
 
 ##### Use ⌥ ← and ⌥→ to jump forwards/backwards words in iTerm 2, on OS X
-Profiles > Keys
+`Profiles > Keys`
 ```
 Keyboard Shortcut: ⌥←
 Action: Send Escape Sequence
