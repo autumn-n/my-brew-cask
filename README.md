@@ -46,6 +46,9 @@ brew install node-build
 brew install pyenv
 brew install pyenv-virtualenv
 brew install autoenv
+
+brew tap caskroom/cask
+brew install vitorgalvao/tiny-scripts/cask-repair
 ```
 
 ### brew cask
