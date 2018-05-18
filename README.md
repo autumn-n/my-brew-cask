@@ -30,6 +30,7 @@ Esc+: f
 ```
 brew install awscli
 brew install aws-elasticbeanstalk
+brew install awslogs
 
 brew install wget
 brew install httpstat
