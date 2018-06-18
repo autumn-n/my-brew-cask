@@ -45,6 +45,9 @@ brew install node-build
 brew install pyenv
 brew install pyenv-virtualenv
 brew install autoenv
+
+brew cask install java8
+brew install clojure
 ```
 
 ### App Store
