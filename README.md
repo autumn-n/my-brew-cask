@@ -5,6 +5,7 @@ My OSX Settings
 ```
 https://brew.sh
 brew cask
+brew tap caskroom/versions
 
 brew cask install alfred
 
