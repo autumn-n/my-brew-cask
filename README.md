@@ -48,6 +48,7 @@ brew install autoenv
 
 brew cask install java8
 brew install clojure
+brew install leiningen
 ```
 
 ### App Store
