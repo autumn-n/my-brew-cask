@@ -1,31 +1,6 @@
 # my-osx-settings
 My OSX Settings
 
-### Setting
-
-##### Show access modifier for classes in IntelliJ
-`Command + Shift + A` > `Registry`
-```
--Dide.projectView.show.visibility=true
-```
-
-##### Convert '₩' to '\`'
-```
-curl -sSL https://gist.githubusercontent.com/redism/43bc51cab62269fa97a220a7bb5e1103/raw/0d55b37b60e0e0bd3d0d7f53995de0a722f9820c/kr_won_to_backquote.sh | sh
-```
-
-##### Use ⌥ ← and ⌥→ to jump forwards/backwards words in iTerm 2, on OS X
-`Profiles > Keys`
-```
-Keyboard Shortcut: ⌥←
-Action: Send Escape Sequence
-Esc+: b
-
-Keyboard Shortcut: ⌥→
-Action: Send Escape Sequence
-Esc+: f
-```
-
 ### brew
 ```
 https://brew.sh
@@ -127,4 +102,34 @@ eval "$(pyenv virtualenv-init -)"
 source $(brew --prefix autoenv)/activate.sh
 eval "$(scalaenv init -)"
 eval "$(nodenv init -)"
+```
+
+### Setting
+
+##### .bash_profile
+```
+ln -s ~/Dropbox/Mac/bash_profile ~/.bash_profile
+```
+
+##### Use ⌥ ← and ⌥→ to jump forwards/backwards words in iTerm 2, on OS X
+`Profiles > Keys`
+```
+Keyboard Shortcut: ⌥←
+Action: Send Escape Sequence
+Esc+: b
+
+Keyboard Shortcut: ⌥→
+Action: Send Escape Sequence
+Esc+: f
+```
+
+##### Show access modifier for classes in IntelliJ
+`Command + Shift + A` > `Registry`
+```
+-Dide.projectView.show.visibility=true
+```
+
+##### Convert '₩' to '\`'
+```
+curl -sSL https://gist.githubusercontent.com/redism/43bc51cab62269fa97a220a7bb5e1103/raw/0d55b37b60e0e0bd3d0d7f53995de0a722f9820c/kr_won_to_backquote.sh | sh
 ```
